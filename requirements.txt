@@ -1,0 +1,15 @@
+
+fastapi
+uvicorn
+streamlit
+requests
+ollama
+langgraph
+pydantic
+pymupdf
+python-docx
+chromadb
+python-multipart
+reportlab
+python-dotenv
+pytest

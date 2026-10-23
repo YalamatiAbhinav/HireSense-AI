@@ -1,0 +1,30 @@
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# Private resume data and databases
+data/uploads/
+data/chroma_db/
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated reports
+data/reports/
+reports/
+test_report.pdf
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
