@@ -1,5 +1,4 @@
-
-import fitz
+import pymupdf
 from docx import Document
 from pathlib import Path
 
@@ -19,7 +18,7 @@ def extract_resume(file_path: str) -> str:
     text = ""
 
     if extension == ".pdf":
-        pdf = fitz.open(path)
+        pdf = pymupdf.open(path)
 
         try:
             for page in pdf:
